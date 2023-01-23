@@ -12937,6 +12937,9 @@ D2000000 00000000
 
 [--]
 
+[~#0000FF~Camera zoom]
+004195E0 40000000
+
 [~#0000FF~configurate zoom out  read note]
 DD000000 00000002
 0041958C 42F00000
@@ -14307,7 +14310,7 @@ D2000000 00000000
 DD000000 00000800
 00240F4C E3A005FE
 00240F50 EE010A10
-{~#FF010D~Y walk forward  left/right    made byPeanut#XTN}
+{~#FF010D~Y  forward  left/right    made byPeanut#XTN}
 
 [~#0000FF~epilepsy player by darksiders]
 F1482F20 40000000
@@ -18437,6 +18440,11 @@ DD000000 00000001
 [--]
 
 [++~#0000FF~Walk++]
+
+[~#0000FF~Fast player walk]
+00240FD4 FFF00000
+00240FE4 3F800000
+00240FD8 C1FFFFFF
 
 [~#0000FF~deactivate auto walk]
 D3000000 00000000
